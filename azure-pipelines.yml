@@ -46,11 +46,11 @@ steps:
 
 - template: templates/template.yml
   parameters:
-  buildConfiguration: 'Debug'
+    buildConfiguration: 'Debug'
 
 - template: templates/template.yml
   parameters:
-  buildConfiguration: 'Release'
+    buildConfiguration: 'Release'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
